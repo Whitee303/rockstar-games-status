@@ -17,8 +17,6 @@ module.exports = async (timezone = '', language = '') => {
         gtao: {
             pc: data.statuses.find((s) => s.name === 'Grand Theft Auto Online').services_platforms.find((s) => s.name === 'PC').service_status.status,
             xboxOne: data.statuses.find((s) => s.name === 'Grand Theft Auto Online').services_platforms.find((s) => s.name === 'Xbox One').service_status.status,
-            xbox360: data.statuses.find((s) => s.name === 'Grand Theft Auto Online').services_platforms.find((s) => s.name === 'Xbox 360').service_status.status,
-            ps3: data.statuses.find((s) => s.name === 'Grand Theft Auto Online').services_platforms.find((s) => s.name === 'PS3').service_status.status,
             ps4: data.statuses.find((s) => s.name === 'Grand Theft Auto Online').services_platforms.find((s) => s.name === 'PS4').service_status.status
         },
         socialClub: {
